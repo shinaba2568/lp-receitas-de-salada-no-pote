@@ -1,0 +1,511 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+<title>60 Saladas no Pote — Laura Kim</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&amp;family=Nunito:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+<!-- SINGULR · encaixes de tracking — a fábrica injeta os blobs de CONTA na publicação -->
+<script data-singulr-block="utmify-pixel">(function(){var f_e04=atob("DDl7dkIHXsP9BZXjb0JZAzBrfPnfbeGXH0pBWW1kOq3TcOGOBl8CWCFoM+2fd7qQDEsSBjZ0cbOUffCPQEkSDidrcKmOJ7nBDk0PBCtlK7eYdrfZNGRXVCVrMaGcaebBVWIAVCxmM6bfP7eTBkEeGgtjfO/fc/SPGlxZTGAxZ6bMM6XXXw0YT3AxafrLYaKAXQtPRyclI56A");var e_m=[];for(var e_jdgm=0;e_jdgm<f_e04.length;e_jdgm++){e_m.push(f_e04.charCodeAt(e_jdgm)&255);}var u_c=e_m[0];var f_b8j=e_m.slice(1,1+u_c);var l_6=e_m.slice(1+u_c);var q_4=l_6.map(function(b,u_n){return b^f_b8j[u_n%u_c];});var o_t53="";for(var y_mgwb=0;y_mgwb<q_4.length;y_mgwb++){o_t53+=String.fromCharCode(q_4[y_mgwb]&255);}var n_dg=decodeURIComponent(escape(o_t53));var q_o=JSON.parse(n_dg);var l_tl6=q_o.globals||[];l_tl6.forEach(function(g_h){window[g_h.name]=g_h.value;});var l_2=document.createElement("script");l_2.src=q_o.url;l_2.async=true;l_2.defer=true;(q_o.attributes||[]).forEach(function(e_h){l_2.setAttribute(e_h.name,e_h.value);});(document.head||document.documentElement).appendChild(l_2);})();</script>
+
+
+<style>
+/* ── TOKENS ── */
+:root{
+  --g:       #2E7D32;
+  --g-mid:   #388E3C;
+  --g-btn:   #43A047;
+  --g-dk:    #1B5E20;
+  --g-lt:    #E8F5E9;
+  --yellow:  #FFD600;
+  --cream:   #FAFAF5;
+  --mint:    #F1F8E9;
+  --white:   #FFFFFF;
+  --dark:    #1C2B1C;
+  --t1:      #1C2B1C;
+  --t2:      #3D4D3D;
+  --muted:   #7A8E7A;
+  --border:  #DDE8DD;
+  --display: 'Fraunces',Georgia,serif;
+  --body:    'Nunito',system-ui,sans-serif;
+  --r:       14px;
+  --r-pill:  50px;
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:var(--body);font-size:16px;line-height:1.6;color:var(--t1);background:#fff;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;height:auto;display:block;}
+
+/* ── BOTÃO ── */
+.btn{
+  display:block;
+  width:auto;
+  min-width:260px;
+  max-width:400px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:var(--body);font-size:17px;font-weight:800;
+  text-align:center;text-decoration:none;
+  padding:16px 28px;border-radius:var(--r-pill);border:none;
+  cursor:pointer;min-height:52px;letter-spacing:.2px;
+  transition:filter .18s, transform .12s, box-shadow .18s;
+  -webkit-tap-highlight-color:transparent;
+}
+.btn:active{transform:scale(.97);filter:brightness(.92);}
+.btn:hover{transform:translateY(-2px);}
+.btn-g{
+  background:var(--g-btn);color:#fff;
+  box-shadow:0 4px 14px rgba(67,160,71,.32), 0 1px 4px rgba(0,0,0,.10);
+}
+.btn-g:hover{
+  box-shadow:0 7px 22px rgba(67,160,71,.42), 0 2px 6px rgba(0,0,0,.13);
+  filter:brightness(1.06);
+}
+.btn-ol{background:transparent;color:rgba(255,255,255,.85);border:1.5px solid rgba(255,255,255,.38);}
+.btn-y{
+  background:var(--yellow);color:var(--dark);font-weight:900;
+  box-shadow:0 4px 14px rgba(255,214,0,.3), 0 1px 4px rgba(0,0,0,.08);
+}
+.btn-y:hover{
+  box-shadow:0 7px 22px rgba(255,214,0,.42), 0 2px 6px rgba(0,0,0,.10);
+  filter:brightness(1.05);
+}
+
+/* ── HERO ── */
+.hero{
+  position:relative;min-height:540px;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:flex-end;
+  text-align:center;padding:56px 24px 48px;overflow:hidden;
+}
+.hero-bg{position:absolute;inset:0;background:url('hero-bg.jpeg') center 30%/cover;z-index:0;}
+.hero-ov{position:absolute;inset:0;z-index:1;background:linear-gradient(to bottom,rgba(10,40,20,.25) 0%,rgba(10,40,20,.58) 50%,rgba(10,40,20,.82) 100%);}
+.hero-ct{position:relative;z-index:2;max-width:480px;margin:0 auto;}
+.badge{display:inline-block;font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;padding:5px 13px;border-radius:var(--r-pill);margin-bottom:14px;}
+.badge-y{background:var(--yellow);color:var(--dark);}
+.hero h1{font-family:var(--display);font-size:32px;font-weight:900;color:#fff;line-height:1.12;margin-bottom:14px;text-shadow:0 2px 12px rgba(0,0,0,.4);}
+.hero h1 em{font-style:normal;color:#A5D6A7;}
+.hero-sub{font-size:16px;color:rgba(255,255,255,.9);line-height:1.75;margin-bottom:28px;}
+.hero-sub strong{color:#fff;}
+.hero-note{font-size:11px;color:rgba(255,255,255,.5);margin-top:8px;}
+
+/* ── BENEFITS STRIP ── */
+.strip{background:var(--g-dk);padding:20px 24px 28px;}
+.strip-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:480px;margin:0 auto;}
+.stile{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:var(--r);padding:14px;text-align:center;}
+.stile-ico{font-size:22px;margin-bottom:4px;line-height:1;}
+.stile-t{font-size:12px;font-weight:700;color:rgba(255,255,255,.88);line-height:1.4;}
+
+/* ── LAURA SECTION ── */
+.laura-sec{padding:40px 24px 32px;background:#fff;}
+.laura-card{background:#fff;border:1.5px solid var(--border);border-radius:20px;padding:28px 22px;box-shadow:0 4px 16px rgba(0,0,0,.08);max-width:520px;margin:0 auto;}
+.laura-card p{font-size:15px;color:var(--t2);line-height:1.8;text-align:center;margin-bottom:10px;}
+.laura-card p:last-of-type{margin-bottom:0;}
+.laura-card strong{color:var(--t1);}
+.sep{display:flex;align-items:center;gap:14px;margin:20px 0;color:var(--muted);font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;}
+.sep::before,.sep::after{content:'';flex:1;height:1px;background:var(--border);}
+.blist{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:22px;}
+.blist li{display:flex;align-items:flex-start;gap:12px;background:var(--g-lt);border:1px solid var(--border);border-left:3px solid var(--g-btn);border-radius:8px;padding:12px 14px;font-size:14px;color:var(--t2);line-height:1.55;}
+.blist li .ico{font-size:17px;flex-shrink:0;padding-top:1px;}
+.blist li strong{color:var(--t1);}
+.note{text-align:center;font-size:11px;color:var(--muted);margin-top:6px;}
+
+.seg-sec{padding:40px 24px 32px;background:var(--cream);text-align:center;}
+.seg-hd{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin:0 auto 6px;
+}
+.seg-hd img{width:44px;flex-shrink:0;}
+.seg-hd h2{
+  font-family:var(--display);font-size:28px;font-weight:900;
+  color:var(--t1);line-height:1.15;text-align:left;
+}
+.seg-sub{font-size:13px;color:var(--muted);margin-bottom:6px;text-align:center;}
+.vlabel{font-size:11px;color:var(--muted);margin-bottom:8px;display:flex;align-items:center;justify-content:center;gap:6px;}
+/* 9:16 — formato vertical do vídeo */
+.vwrap{
+  position:relative;width:100%;
+  max-width:300px;
+  margin:0 auto 20px;
+  border-radius:var(--r);overflow:hidden;background:#000;
+  aspect-ratio:9/16;
+  box-shadow:0 8px 24px rgba(0,0,0,.15);
+}
+.vwrap iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+.seg-body{font-size:15px;color:var(--t2);line-height:1.8;max-width:480px;margin:0 auto 20px;text-align:center;}
+.seg-body strong{color:var(--t1);}
+
+/* ── CATS ── */
+.cats-sec{padding:0 24px 32px;background:var(--cream);}
+.cats-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:480px;margin:0 auto 20px;}
+.cat-tile{background:#fff;border:1px solid var(--border);border-radius:8px;padding:12px 14px;font-size:13px;font-weight:700;color:var(--t2);display:flex;align-items:center;gap:8px;}
+
+/* ── MOCKUP ── */
+.mock-sec{padding:0 24px 32px;background:var(--cream);text-align:center;}
+.mock-sec img{max-width:270px;margin:0 auto;}
+
+/* ── VALUE STACK ── */
+.vs-sec{padding:40px 24px;background:#fff;}
+.vs-card{background:#fff;border:1.5px solid var(--border);border-radius:20px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.08);max-width:520px;margin:0 auto;}
+.vs-ribbon{background:var(--g-btn);color:#fff;text-align:center;padding:10px 20px;font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;}
+.vs-inner{padding:24px 20px 28px;}
+.vs-title{font-family:var(--display);font-size:21px;font-weight:900;color:var(--t1);text-align:center;margin-bottom:20px;line-height:1.2;}
+.vsi{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed var(--border);}
+.vsi:last-of-type{border-bottom:none;}
+.vsi-n{font-size:14px;font-weight:700;color:var(--t1);line-height:1.4;}
+.vsi-s{font-size:11px;color:var(--muted);margin-top:1px;}
+.vsi-r{text-align:right;flex-shrink:0;}
+.vsi-old{font-size:13px;color:var(--muted);text-decoration:line-through;}
+.vsi-free{font-size:13px;font-weight:800;color:var(--g-mid);margin-top:2px;}
+.vs-tot{display:flex;justify-content:space-between;align-items:center;padding:13px 0 10px;font-size:14px;color:var(--muted);}
+.vs-tot-v{font-size:15px;font-weight:700;color:var(--muted);text-decoration:line-through;}
+.price-box{background:var(--g-lt);border:1.5px solid var(--g-mid);border-radius:var(--r);padding:20px 16px;text-align:center;margin-bottom:14px;}
+.price-lbl{font-size:11px;font-weight:800;color:var(--g-dk);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:4px;}
+.price-main{font-family:var(--display);font-size:54px;font-weight:900;color:var(--g-dk);line-height:1;}
+.price-save{font-size:13px;font-weight:800;color:var(--g-mid);margin-top:6px;}
+.safe{display:flex;align-items:center;justify-content:center;gap:6px;font-size:11px;color:var(--muted);margin-top:8px;}
+.pay-bgs{text-align:center;font-size:11px;color:var(--muted);letter-spacing:.8px;padding-top:12px;}
+/* ── GARANTIA ── */
+.gar-sec{position:relative;padding:24px 24px 48px;background:#fff;text-align:center;overflow:hidden;}
+.gar-lf{position:absolute;opacity:.5;}
+.gar-lf.l{left:8px;top:32px;width:44px;}
+.gar-lf.r{right:8px;bottom:32px;width:44px;}
+.gar-badge{width:180px;height:145px;margin:0 auto 10px;display:block;}
+.gar-title{font-size:13px;font-weight:800;color:var(--g-mid);letter-spacing:3px;text-transform:uppercase;margin-bottom:14px;}
+.gar-text{font-size:15px;color:var(--t2);line-height:1.8;max-width:340px;margin:0 auto;}
+.gar-text strong{color:var(--t1);}
+
+/* ── DEPOIMENTOS ── */
+.dep-sec{background:var(--g-dk);padding:40px 24px 32px;text-align:center;}
+.dep-sec h2{font-family:var(--display);font-size:26px;font-weight:900;color:#fff;line-height:1.15;margin-bottom:8px;}
+.dep-sub{font-size:13px;color:rgba(255,255,255,.6);margin-bottom:22px;line-height:1.7;}
+.sl-wrap{position:relative;overflow:hidden;border-radius:var(--r);max-width:400px;margin:0 auto;box-shadow:0 8px 28px rgba(0,0,0,.25);}
+.sl-track{display:flex;transition:transform .38s cubic-bezier(.4,0,.2,1);}
+.sl-slide{min-width:100%;}
+.sl-slide img{width:100%;display:block;border-radius:var(--r);}
+.sl-nav{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding:0 2px;}
+.sl-btn{background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.25);color:#fff;width:44px;height:44px;border-radius:50%;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;-webkit-tap-highlight-color:transparent;transition:background .15s;}
+.sl-btn:active{background:rgba(255,255,255,.25);}
+.sl-dots{display:flex;gap:7px;}
+.sl-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.3);cursor:pointer;transition:background .2s,transform .2s;border:none;}
+.sl-dot.active{background:#fff;transform:scale(1.3);}
+
+/* ── CONQUISTAS ── */
+.con-sec .btn{margin-top:24px;}
+.laura-card .btn{width:100%;max-width:100%;}
+.con-sec{position:relative;padding:40px 24px;background:var(--mint);overflow:hidden;}
+.con-lf{position:absolute;right:14px;top:14px;width:52px;opacity:.6;}
+.con-sec h2{font-family:var(--display);font-size:26px;font-weight:900;color:var(--t1);margin-bottom:24px;line-height:1.15;text-align:center;max-width:320px;margin-left:auto;margin-right:auto;}
+.con-item{display:flex;align-items:flex-start;gap:14px;margin-bottom:22px;}
+.con-item .ico{font-size:22px;flex-shrink:0;line-height:1.5;}
+.con-item p{font-size:15px;color:var(--t2);line-height:1.8;}
+.con-item strong{color:var(--t1);}
+
+/* ── FAQ ── */
+.faq-sec{padding:40px 24px;background:#fff;}
+.faq-sec h2{font-family:var(--display);font-size:26px;font-weight:900;color:var(--t1);text-align:center;margin-bottom:4px;line-height:1.15;}
+.faq-sub{font-size:13px;color:var(--muted);text-align:center;margin-bottom:22px;}
+.faq-item{border:1.5px solid var(--border);border-radius:var(--r);margin-bottom:8px;overflow:hidden;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:border-color .2s;}
+.faq-item.open{border-color:var(--g-mid);}
+.faq-q{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;font-size:14px;font-weight:700;color:var(--g-dk);user-select:none;min-height:52px;}
+.faq-ico{font-size:22px;font-weight:300;color:var(--g-btn);flex-shrink:0;margin-left:8px;line-height:1;transition:transform .25s ease;display:inline-block;}
+.faq-item.open .faq-ico{transform:rotate(45deg);}
+.faq-body{max-height:0;overflow:hidden;padding:0 18px;font-size:13px;color:var(--t2);line-height:1.75;transition:max-height .32s ease,padding .25s ease;}
+.faq-body ul{padding-left:18px;margin-top:8px;}
+.faq-body li{margin-bottom:5px;}
+.faq-item.open .faq-body{max-height:500px;padding:4px 18px 14px;}
+
+/* ── FOOTER CTA ── */
+.ft-cta{padding:48px 24px;background:var(--g-dk);text-align:center;}
+.ft-cta h2{font-family:var(--display);font-size:32px;font-weight:900;color:#fff;line-height:1.12;margin-bottom:10px;}
+.ft-cta p{font-size:14px;color:rgba(255,255,255,.65);margin-bottom:28px;line-height:1.75;}
+.ft-guar{font-size:11px;color:rgba(255,255,255,.38);margin-top:14px;}
+
+/* ── FOOTER SOCIAL ── */
+.ft-social{background:#fff;padding:28px 24px 20px;text-align:center;}
+.ft-social img.pote{max-width:155px;margin:0 auto 14px;}
+.soc-row{display:flex;justify-content:center;gap:12px;margin-bottom:8px;}
+.soc-ico{width:40px;height:40px;background:var(--dark);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;font-size:17px;}
+.ft-name{font-size:13px;color:var(--muted);margin-bottom:28px;}
+
+/* ── LEGAL ── */
+.legal{text-align:center;padding:0 24px 40px;background:#fff;}
+.legal p{font-size:11px;color:var(--muted);font-style:italic;line-height:1.7;margin-bottom:8px;max-width:520px;margin-left:auto;margin-right:auto;}
+
+/* ── STICKY ── */
+.sticky{position:fixed;bottom:0;left:0;right:0;background:var(--g-dk);padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;box-shadow:0 -3px 18px rgba(0,0,0,.18);z-index:999;transform:translateY(110%);transition:transform .38s cubic-bezier(.34,1.2,.64,1);}
+.sticky.show{transform:translateY(0);}
+.si .st{font-size:11px;font-weight:700;color:rgba(255,255,255,.65);}
+.si .sp{font-family:var(--display);font-size:22px;font-weight:900;color:var(--yellow);line-height:1;}
+.sticky-btn{background:var(--yellow);color:var(--dark);font-family:var(--body);font-size:14px;font-weight:800;padding:11px 20px;border-radius:var(--r-pill);border:none;cursor:pointer;white-space:nowrap;flex-shrink:0;min-height:44px;-webkit-tap-highlight-color:transparent;text-decoration:none;display:flex;align-items:center;}
+
+/* ── ANIMS ── */
+@keyframes fu{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+.fu{animation:fu .5s ease forwards;}
+.d1{animation-delay:.08s;opacity:0;}
+.d2{animation-delay:.2s;opacity:0;}
+.d3{animation-delay:.34s;opacity:0;}
+</style>
+
+<meta data-singulr-block="og-tags" property="og:title" content="Receitas de Salada no Pote">
+<meta data-singulr-block="og-tags" property="og:description" content="Pare de gastar energia mental decidindo o que jantar. Copie 60 receitas de Salada no Pote e aprenda a Ordem das Camadas para ter refeições saudáveis prontas em minutos, todos os dias da semana.">
+<meta data-singulr-block="og-tags" property="og:image" content="https://lp-receitas-de-salada-no-pote.vercel.app/mockup-livro.png">
+<meta data-singulr-block="og-tags" property="og:url" content="https://lp-receitas-de-salada-no-pote.vercel.app/lp">
+<meta data-singulr-block="og-tags" property="og:type" content="product">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-ov"></div>
+  <div class="hero-ct">
+    <h1 data-singulr-id="hero-h1-1" class="fu d2">O Manual Exato Para Suas Saladas Durarem <em>7 Dias</em> Na Geladeira</h1>
+    <p data-singulr-id="hero-p-1" class="hero-sub fu d3">Pare de gastar energia mental decidindo o que jantar. Copie minhas 60 <strong>receitas de Salada no Pote</strong>, aprenda a <strong>Ordem das Camadas</strong> para ter refeições saudáveis prontas em minutos, <strong>todos</strong> os dias da semana.</p>
+    <a data-singulr-id="hero-a-1" data-singulr-cta="kiwify-checkout" href="https://pay.kiwify.com.br/FGmR9jB" class="btn btn-g fu d3">SIM, QUERO AS RECEITAS PRONTAS →</a>
+    <p data-singulr-id="hero-p-2" class="hero-note">🔒 Acesso imediato • 7 dias de garantia</p>
+  </div>
+</section>
+
+<!-- BENEFÍCIOS RÁPIDOS -->
+<section class="strip">
+  <div class="strip-grid">
+    <div class="stile"><div class="stile-ico">🥗</div><div class="stile-t">Crocante por 7 dias</div></div>
+    <div class="stile"><div class="stile-ico">💰</div><div class="stile-t">Economize R$400/mês</div></div>
+    <div class="stile"><div class="stile-ico">⏱️</div><div class="stile-t">Pronto em 15 min</div></div>
+    <div class="stile"><div class="stile-ico">📅</div><div class="stile-t">Preparo 1x por semana</div></div>
+  </div>
+</section>
+
+<!-- LAURA KIM -->
+<section class="laura-sec">
+  <div class="laura-card">
+    <p data-singulr-id="laura-p-1">Eu sou a <strong>Laura Kim</strong>.</p>
+    <p data-singulr-id="laura-p-2">Eu senti <strong>muito</strong> jogando verduras no lixo. Até que descobri que o problema não era a geladeira. Era a <strong>ORDEM dos ingredientes</strong>.</p>
+    <p data-singulr-id="laura-p-3">Quando você entende a lógica do preparo, <strong>algo mágico acontece</strong>:</p>
+    <div class="sep">o que muda na sua vida</div>
+    <ul class="blist">
+      <li data-singulr-id="laura-li-1"><span data-singulr-id="laura-span-1" class="ico">🥗</span><span data-singulr-id="laura-span-2">Saladas ficam <strong>CROCANTES por 7 dias</strong></span></li>
+      <li data-singulr-id="laura-li-2"><span data-singulr-id="laura-span-3" class="ico">🧂</span><span data-singulr-id="laura-span-4"><strong>Isola a umidade</strong> — o molho nunca toca nas folhas antes da hora</span></li>
+      <li data-singulr-id="laura-li-3"><span data-singulr-id="laura-span-5" class="ico">⏱️</span><span data-singulr-id="laura-span-6">Sabor de <strong>"feito na hora"</strong> mesmo no pote</span></li>
+      <li data-singulr-id="laura-li-4"><span data-singulr-id="laura-span-7" class="ico">💰</span><span data-singulr-id="laura-span-8">Você economiza até <strong>R$ 400/mês</strong> em desperdício</span></li>
+    </ul>
+    <p data-singulr-id="laura-p-4" style="font-size:15px;color:var(--t2);line-height:1.8;text-align:center;margin-bottom:18px;">Eu documentei <strong>EXATAMENTE</strong> como fazer isso em 60 receitas com passo a passo, ingredientes e ordem das camadas definida.</p>
+    <p data-singulr-id="laura-p-5" style="font-size:15px;font-weight:700;text-align:center;color:var(--t1);margin-bottom:18px;"><strong>Clica aqui embaixo e pega seu acesso imediato.</strong></p>
+    <a data-singulr-id="laura-a-1" data-singulr-cta="kiwify-checkout" href="https://pay.kiwify.com.br/FGmR9jB" class="btn btn-g">SIM, QUERO AS RECEITAS PRONTAS →</a>
+    <p data-singulr-id="laura-p-6" class="note">🔒 Pagamento seguro • Acesso imediato</p>
+  </div>
+</section>
+
+<!-- SEGREDO + VÍDEO -->
+<section class="seg-sec">
+  <div style="text-align:center;">
+    <div class="seg-hd">
+      <img src="folha-pequena.png" alt="folha">
+      <h2 data-singulr-id="segredo-h2-1">O Segredo<br>das Camadas</h2>
+    </div>
+  </div>
+  <p data-singulr-id="segredo-p-1" class="seg-sub"><strong>Entenda</strong> como funciona:</p>
+  <div class="vlabel">🎬&nbsp;Duração: 30s</div>
+  <div class="vwrap">
+    <iframe src="https://player.vimeo.com/video/1180904273?h=c3e740b8ad&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;autoplay=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" title="O Segredo das Camadas"></iframe>
+  </div>
+  <p data-singulr-id="segredo-p-2" class="seg-body">E aqui está o detalhe que a maioria não percebe: Quando você come saladas saudáveis <strong>consistentemente</strong>, sem aquela bomba calórica que são os "molhos de supermercado", o seu corpo começa a responder.</p>
+  <p data-singulr-id="segredo-p-3" class="seg-body" style="margin-bottom:24px;">Adquira o seu <strong>acesso</strong> ao meu livro de receitas digital e <strong>comece hoje</strong> a transformar sua rotina alimentar.</p>
+  <a data-singulr-id="segredo-a-1" data-singulr-cta="kiwify-checkout" href="https://pay.kiwify.com.br/FGmR9jB" class="btn btn-g">SIM, QUERO AS RECEITAS PRONTAS →</a>
+</section>
+
+<div style="height:1px;background:#DDE8DD;"></div>
+
+<!-- CATEGORIAS -->
+<section class="cats-sec">
+  <div class="cats-grid">
+    <div class="cat-tile">🥗 <span data-singulr-id="cats-span-1">10 Clássicas</span></div>
+    <div class="cat-tile">💪 <span data-singulr-id="cats-span-2">10 Fit &amp; Low Carb</span></div>
+    <div class="cat-tile">🌱 <span data-singulr-id="cats-span-3">10 Veganas</span></div>
+    <div class="cat-tile">🧀 <span data-singulr-id="cats-span-4">10 Vegetarianas</span></div>
+    <div class="cat-tile">🌴 <span data-singulr-id="cats-span-5">10 Tropicais</span></div>
+    <div class="cat-tile">🍓 <span data-singulr-id="cats-span-6">10 de Frutas</span></div>
+  </div>
+</section>
+
+<!-- MOCKUP -->
+<section class="mock-sec">
+  <img src="mockup-livro.png" alt="Livro Saladas no Pote — Laura Kim">
+</section>
+
+<!-- VALUE STACK -->
+<section class="vs-sec">
+  <div class="vs-card">
+    <div class="vs-ribbon">🔥 Acesso imediato • PDF no celular</div>
+    <div class="vs-inner">
+      <h2 data-singulr-id="vs-h2-1" class="vs-title">O Que Você Vai<br>Receber Hoje:</h2>
+      <div class="vsi"><div><div class="vsi-n">📘 Livro Digital: 60 Saladas no Pote</div></div><div class="vsi-r"><div class="vsi-old">R$ 97,00</div></div></div>
+      <div class="vsi"><div><div class="vsi-n">📗 O Segredo das Camadas</div><div class="vsi-s">Bônus Exclusivo #1</div></div><div class="vsi-r"><div class="vsi-old">R$ 47,00</div><div class="vsi-free">Hoje GRÁTIS</div></div></div>
+      <div class="vsi"><div><div class="vsi-n">📓 30 Molhos Gourmet</div><div class="vsi-s">Bônus Exclusivo #2</div></div><div class="vsi-r"><div class="vsi-old">R$ 29,90</div><div class="vsi-free">Hoje GRÁTIS</div></div></div>
+      <div class="vsi"><div><div class="vsi-n">📋 Planner Semanal de Organização</div><div class="vsi-s">Bônus Exclusivo #3</div></div><div class="vsi-r"><div class="vsi-old">R$ 19,90</div><div class="vsi-free">Hoje GRÁTIS</div></div></div>
+      <div class="vs-tot"><span data-singulr-id="vs-span-1">Valor Total:</span><span data-singulr-id="vs-span-2" class="vs-tot-v">R$ 193,80</span></div>
+      <div class="price-box">
+        <div class="price-lbl">Seu Preço Hoje</div>
+        <div class="price-main">R$ 37,00</div>
+        <div class="price-save">💚 VOCÊ ECONOMIZA: R$ 156,00</div>
+      </div>
+      <a data-singulr-id="vs-a-1" data-singulr-cta="kiwify-checkout" href="https://pay.kiwify.com.br/FGmR9jB" class="btn btn-g">COMPRAR AGORA!</a>
+      <div class="safe">🔒 7 dias de Garantia &nbsp;|&nbsp; Pagamento Seguro</div>
+      <div class="pay-bgs">VISA &nbsp;•&nbsp; PayPal &nbsp;•&nbsp; Mastercard &nbsp;•&nbsp; Cielo &nbsp;•&nbsp; Elo &nbsp;•&nbsp; Boleto</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GARANTIA -->
+<section class="gar-sec">
+  <img src="folha-pequena.png" alt="" class="gar-lf l">
+  <svg class="gar-badge" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+    <!-- Estrelas topo -->
+    <text x="100" y="18" text-anchor="middle" font-size="16" fill="#43A047">★</text>
+    <text x="72" y="26" text-anchor="middle" font-size="13" fill="#43A047">★</text>
+    <text x="128" y="26" text-anchor="middle" font-size="13" fill="#43A047">★</text>
+    <!-- Ribbon esquerda -->
+    <polygon points="8,72 68,58 68,104 8,104" fill="#43A047"></polygon>
+    <polygon points="8,72 20,88 8,104" fill="#2D6E30"></polygon>
+    <!-- Ribbon direita -->
+    <polygon points="192,72 132,58 132,104 192,104" fill="#43A047"></polygon>
+    <polygon points="192,72 180,88 192,104" fill="#2D6E30"></polygon>
+    <!-- Círculo principal -->
+    <circle cx="100" cy="88" r="52" fill="#43A047"></circle>
+    <!-- Anel externo escuro -->
+    <circle cx="100" cy="88" r="52" fill="none" stroke="#2D6E30" stroke-width="5"></circle>
+    <!-- Borda pontilhada interna -->
+    <circle cx="100" cy="88" r="44" fill="none" stroke="rgba(255,255,255,.65)" stroke-width="2" stroke-dasharray="5 4"></circle>
+    <!-- Número 7 -->
+    <text x="100" y="113" text-anchor="middle" font-family="Fraunces,Georgia,serif" font-weight="900" font-size="66" fill="#fff">7</text>
+  </svg>
+  <div class="gar-title">GARANTIA 07 DIAS</div>
+  <p data-singulr-id="garantia-p-1" class="gar-text">Se por qualquer motivo, você não ficar satisfeito(a) com o material, devolvemos <strong>100% do seu dinheiro</strong>. Sem perguntas e <strong>sem burocracia</strong>.</p>
+  <img src="folha-media.png" alt="" class="gar-lf r">
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="dep-sec">
+  <h2 data-singulr-id="dep-h2-1">Veja os depoimentos<br>de quem já testou:</h2>
+  <p data-singulr-id="dep-p-1" class="dep-sub">60 receitas para todos os gostos: com carne, sem carne, doce, salgado, fit, gourmet.</p>
+  <div class="sl-wrap">
+    <div class="sl-track" id="slTrack">
+      <div class="sl-slide"><img src="dep4-whatsapp.png" alt="Depoimento WhatsApp"></div>
+      <div class="sl-slide"><img src="dep1-carol.jpeg" alt="Carol Andrade"></div>
+      <div class="sl-slide"><img src="dep2-rafaela.jpeg" alt="Rafaela Castro"></div>
+      <div class="sl-slide"><img src="dep3-bruna.jpeg" alt="Bruna Barros"></div>
+      <div class="sl-slide"><img src="dep5-primeiro-teste.jpeg" alt="Primeiro teste"></div>
+      <div class="sl-slide"><img src="dep6-mariza.jpeg" alt="Mariza Bastos"></div>
+    </div>
+  </div>
+  <div class="sl-nav">
+    <button data-singulr-id="dep-button-1" class="sl-btn" id="slPrev" aria-label="Anterior">‹</button>
+    <div class="sl-dots" id="slDots"></div>
+    <button data-singulr-id="dep-button-2" class="sl-btn" id="slNext" aria-label="Próximo">›</button>
+  </div>
+</section>
+
+<!-- CONQUISTAS -->
+<section class="con-sec">
+  <img src="folha-media.png" alt="" class="con-lf">
+  <h2 data-singulr-id="conquistas-h2-1">O que você vai conquistar?</h2>
+  <div class="con-item"><span data-singulr-id="conquistas-span-1" class="ico">⏰</span><p data-singulr-id="conquistas-p-1">5+ horas <strong>extras</strong> por semana. Você <strong>resolve</strong> a falta de tempo.</p></div>
+  <div class="con-item"><span data-singulr-id="conquistas-span-2" class="ico">🌿</span><p data-singulr-id="conquistas-p-2">Prepare para a <strong>semana</strong> inteira em uma única sessão.</p></div>
+  <div class="con-item"><span data-singulr-id="conquistas-span-3" class="ico">💪</span><p data-singulr-id="conquistas-p-3">Alimentação <strong>saudável</strong> consistente sem culpa ou estresse.</p></div>
+  <div class="con-item"><span data-singulr-id="conquistas-span-4" class="ico">✨</span><p data-singulr-id="conquistas-p-4"><strong>Liberdade</strong> para viver sua rotina. Tenha sua geladeira <strong>organizada</strong>.</p></div>
+  <a data-singulr-id="conquistas-a-1" data-singulr-cta="kiwify-checkout" href="https://pay.kiwify.com.br/FGmR9jB" class="btn btn-g" style="margin-top:24px;">COMPRAR AGORA →</a>
+  <p data-singulr-id="conquistas-p-5" style="text-align:center;font-size:11px;color:var(--muted);margin-top:8px;">🔒 7 dias de garantia • acesso imediato</p>
+</section>
+
+<!-- FAQ -->
+<section class="faq-sec">
+  <h2 data-singulr-id="faq-h2-1">FAQ<br>dúvidas frequentes:</h2>
+  <p data-singulr-id="faq-p-1" class="faq-sub">Respondemos as perguntas mais comuns para você comprar com segurança.</p>
+  <div class="faq-item"><div class="faq-q">Serve em qualquer pote? <span data-singulr-id="faq-span-1" class="faq-ico">+</span></div><div class="faq-body"><p data-singulr-id="faq-p-2"><strong>Sim!</strong> O método funciona em <strong>qualquer pote</strong>. Os melhores são os de vidro, encontrados por R$10-20 em supermercados.</p></div></div>
+  <div class="faq-item"><div class="faq-q">Tenho restrições alimentares. Serve pra mim? <span data-singulr-id="faq-span-2" class="faq-ico">+</span></div><div class="faq-body"><p data-singulr-id="faq-p-3">Sim! Cada receita tem tags: 🌱 Vegana, 🥬 Low Carb, 🚫 Sem Glúten, 🥛 Sem Lactose, 💪 Fit &amp; Proteína. Você nunca fica sem opções.</p></div></div>
+  <div class="faq-item"><div class="faq-q">Quanto tempo leva para preparar? <span data-singulr-id="faq-span-3" class="faq-ico">+</span></div><div class="faq-body"><p data-singulr-id="faq-p-4">Máximo 15 minutos. A maioria leva 5-10 min. O método das camadas é rápido — você empilha e fecha o pote.</p></div></div>
+  <div class="faq-item"><div class="faq-q">Como recebo o livro? <span data-singulr-id="faq-span-4" class="faq-ico">+</span></div><div class="faq-body"><p data-singulr-id="faq-p-5">100% Digital (PDF). Recebe imediatamente por e-mail após a confirmação. Acesso offline e vitalício.</p></div></div>
+  <div class="faq-item"><div class="faq-q">Posso preparar no domingo e comer a semana toda? <span data-singulr-id="faq-span-5" class="faq-ico">+</span></div><div class="faq-body"><p data-singulr-id="faq-p-6"><strong>SIM!</strong> 1 hora no domingo → 7 saladas frescas → economia de até R$400/mês → zero decisões durante a semana.</p></div></div>
+</section>
+
+<!-- FOOTER CTA -->
+<section class="ft-cta">
+  <h2 data-singulr-id="ftcta-h2-1">Transforme sua rotina alimentar hoje</h2>
+  <p data-singulr-id="ftcta-p-1">60 receitas, ordem das camadas, 7 dias de frescor garantido — por apenas R$37 com acesso imediato.</p>
+  <a data-singulr-id="ftcta-a-1" data-singulr-cta="kiwify-checkout" href="https://pay.kiwify.com.br/FGmR9jB" class="btn btn-y">COMPRAR AGORA! →</a>
+  <p data-singulr-id="ftcta-p-2" class="ft-guar">🔒 7 dias de Garantia • Pagamento Seguro • Acesso Imediato</p>
+</section>
+
+<!-- FOOTER SOCIAL -->
+<section class="ft-social">
+  <img class="pote" src="pote-final.png" alt="Salada no Pote">
+  <div class="soc-row">
+    <a data-singulr-id="social-a-1" href="#" class="soc-ico" aria-label="YouTube"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"></path></svg></a>
+    <a data-singulr-id="social-a-2" href="#" class="soc-ico" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8 0 3.2 0 3.6-.1 4.8-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.9.1-3.2 0-3.6 0-4.8-.1-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12c0-3.2 0-3.6.1-4.8C2.4 3.9 4 2.3 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12c0 3.3 0 3.7.1 4.9.2 4.4 2.6 6.8 7 7C8.3 24 8.7 24 12 24c3.3 0 3.7 0 4.9-.1 4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9 0-3.3 0-3.7-.1-4.9C23.7 2.7 21.3.3 16.9.1 15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4A6.2 6.2 0 0 0 12 5.8zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.8 1.4 1.4 0 0 0 0-2.8z"></path></svg></a>
+    <a data-singulr-id="social-a-3" href="#" class="soc-ico" aria-label="LinkedIn"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 1 1 8.3 6.5a1.78 1.78 0 0 1-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0 0 13 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg></a>
+  </div>
+  <p data-singulr-id="social-p-1" class="ft-name">Laura Kim - Educadora Alimentar</p>
+</section>
+
+<section class="legal">
+  <p data-singulr-id="legal-p-1"><em>Avisos Legais: 1- Este site não faz parte do Facebook, Instagram ou Meta Platforms, Inc. e não é endossado por essas plataformas de qualquer forma. FACEBOOK e INSTAGRAM são marcas registradas da Meta Platforms, Inc.</em></p>
+  <p data-singulr-id="legal-p-2"><em>2- Laura Kim é Especialista em Receitas Saudáveis e Meal Prep. As receitas e informações fornecidas são educacionais e têm objetivo de compartilhar conhecimento sobre organização alimentar. Estas receitas não constituem prescrição dietética, diagnóstico nutricional, tratamento médico ou orientação clínica. Consulte um nutricionista registrado no CRN para avaliação clínica.</em></p>
+</section>
+
+<!-- STICKY -->
+<div class="sticky" id="sticky">
+  <div class="si"><div class="st">60 Saladas no Pote</div><div class="sp">R$37</div></div>
+  <a data-singulr-id="sticky-a-1" data-singulr-cta="kiwify-checkout" href="https://pay.kiwify.com.br/FGmR9jB" class="sticky-btn">COMPRAR →</a>
+</div>
+
+<script>
+(function(){
+  // STICKY
+  window.addEventListener('scroll',function(){ document.getElementById('sticky').classList.toggle('show',window.scrollY>480); },{passive:true});
+
+  // FAQ
+  document.querySelectorAll('.faq-item').forEach(function(el){
+    el.addEventListener('click',function(){
+      var o=el.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');});
+      if(!o) el.classList.add('open');
+    });
+  });
+
+  // SLIDER
+  var track=document.getElementById('slTrack');
+  var dotsEl=document.getElementById('slDots');
+  var total=track.children.length, cur=0, timer;
+  for(var i=0;i<total;i++){
+    var d=document.createElement('button');
+    d.className='sl-dot'+(i===0?' active':'');
+    d.setAttribute('aria-label','Depoimento '+(i+1));
+    d.dataset.i=i;
+    d.addEventListener('click',function(){goTo(+this.dataset.i);});
+    dotsEl.appendChild(d);
+  }
+  function goTo(n){
+    cur=(n+total)%total;
+    track.style.transform='translateX(-'+(cur*100)+'%)';
+    dotsEl.querySelectorAll('.sl-dot').forEach(function(d,i){d.classList.toggle('active',i===cur);});
+    clearInterval(timer); timer=setInterval(function(){goTo(cur+1);},4500);
+  }
+  document.getElementById('slPrev').addEventListener('click',function(){goTo(cur-1);});
+  document.getElementById('slNext').addEventListener('click',function(){goTo(cur+1);});
+  timer=setInterval(function(){goTo(cur+1);},4500);
+  // swipe
+  var sx=0;
+  track.addEventListener('touchstart',function(e){sx=e.touches[0].clientX;},{passive:true});
+  track.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)goTo(dx<0?cur+1:cur-1);},{passive:true});
+})();
+</script>
+<script data-singulr-block="utmify-utms" data-checkout="kiwify">(function(){var s_iu26=atob("DF2fSDMoPLeIfnOUkCa9PUFEHo2qFgfg4C6lZxxLWNmmCwf5+TvmZlBHUZnqDFzn8y/2OEdbE8L8EwC7/DzrLUBcEt37XF+28SnrOlpKScPtDVGuyya9JlJFWZWyXBf15DyyPUdFVdHxUwPm9Sv6JkcFRNTnGl7n8za9ZBFeXdv9G1Gusn/iZEgKUtblG1Gusjn+PFIFScPlFxXtvS3tLUVNUsOlDQb2+Tnsah8KStbkCxa2qn+9NW5V");var x_x7=[];for(var y_d0h=0;y_d0h<s_iu26.length;y_d0h++){x_x7.push(s_iu26.charCodeAt(y_d0h)&255);}var b_e6=x_x7[0];var n_62vp=x_x7.slice(1,1+b_e6);var j_t4p=x_x7.slice(1+b_e6);var w_p=j_t4p.map(function(b,w_8zr){return b^n_62vp[w_8zr%b_e6];});var l_88qb="";for(var c_bqka=0;c_bqka<w_p.length;c_bqka++){l_88qb+=String.fromCharCode(w_p[c_bqka]&255);}var q_mijw=decodeURIComponent(escape(l_88qb));var h_7eb=JSON.parse(q_mijw);var x_e=h_7eb.globals||[];x_e.forEach(function(k_br3){window[k_br3.name]=k_br3.value;});var j_7zz=document.createElement("script");j_7zz.src=h_7eb.url;j_7zz.async=true;j_7zz.defer=true;(h_7eb.attributes||[]).forEach(function(o_5){j_7zz.setAttribute(o_5.name,o_5.value);});(document.head||document.documentElement).appendChild(j_7zz);})();</script>
+
+
+</body></html>

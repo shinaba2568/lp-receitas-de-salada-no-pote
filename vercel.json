@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/lp",
+      "destination": "/lp.html"
+    },
+    {
+      "source": "/upsell",
+      "destination": "/upsell.html"
+    },
+    {
+      "source": "/obrigado",
+      "destination": "/obrigado.html"
+    }
+  ]
+}

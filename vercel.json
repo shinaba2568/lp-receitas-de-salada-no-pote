@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/oferta",
+      "destination": "/lp.html"
+    },
+    {
       "source": "/lp",
       "destination": "/lp.html"
     },
